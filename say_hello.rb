@@ -1,6 +1,6 @@
 # Build your say_hello method here
-$name = "kira"
-def say_hello
-  puts "hello #{$name}"
+your_name = "kira"
+def say_hello(your_name, my_name = "jessie")
+  puts "Hello #{$name}, I'm #{my_name}"
 end
-say_hello
+say_hello ("Julie")
